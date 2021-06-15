@@ -1,0 +1,40 @@
+{
+   "name":"Rahul Agarwal",
+   "short_name":"Rahul",
+   "email":"rahulagarwal070193@gmail.com",
+   "siteTitle":"Rahul Agarwal | Software Engineer",
+   "siteDescription":"Rahul Agarwal is an incoming Software Developer, based in India, who loves learning new things and helping tech beginners.",
+   "siteKeywords":"Rahul Agarwal, Rahul, rahulagarwal070193, software engineer, web developer, javascript,jalpaiguri, iit roorkee,iit",
+   "siteUrl":"https://rahul-agarwal070193.github.io/",
+   "siteLanguage":"en_US",
+   "location":"Jalpaiguri, India",
+   "github":"https://github.com/rahul-agarwal070193",
+   "socialMedia":[
+      {
+         "name":"GitHub",
+         "url":"https://github.com/rahul-agarwal070193"
+      },
+      {
+         "name":"Linkedin",
+         "url":"https://www.linkedin.com/in/rahulagarwal070193/"
+      },
+      {
+         "name":"Instagram",
+         "url":"https://www.instagram.com/rahulagarwal070193/"
+      }
+   ],
+   "navLinks":[
+      {
+         "name":"About",
+         "url":"/#about"
+      },
+      {
+         "name":"Projects",
+         "url":"/#projects"
+      },
+      {
+         "name":"Contact",
+         "url":"/#contact"
+      }
+   ]
+}

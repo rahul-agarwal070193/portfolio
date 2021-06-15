@@ -1,0 +1,26 @@
+ @media (max-width: 480px) and (min-height: 700px) {
+ }
+  h1 {
+      
+      font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+      font-weight: 400;
+
+      @media (max-width: 480px) {
+          margin: 0 0 20px 2px;
+      }
+  }
+
+  h3 {
+      margin-top: 10px;
+      line-height: 0.9;
+  }
+
+  p {
+      margin: 20px 0 0;
+      max-width: 500px;
+  }
+.hero{
+    display: flex;
+    align-items:center;
+    height: 100vh;
+}

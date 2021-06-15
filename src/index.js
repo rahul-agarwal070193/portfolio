@@ -2,11 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import About from './components/About';
+import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
+import Hero from './components/Hero';
+import Side from './components/Side';
+// background = {
+//   "backgroundColor": "black"
+// };
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div style={{ backgroundColor: "#0a192f" }}>
+      <Navbar />
+      <Side />
+      <div class="container" >
+        <Hero />
+        <About />
+        <App />
+      </div>
+    </div>
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );
