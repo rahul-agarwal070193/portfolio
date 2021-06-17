@@ -1,0 +1,41 @@
+.icon-bar {
+    position: fixed;
+    top: 45%;
+    left:1%;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.icon-bar::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 120px;
+    margin: 0px auto;
+    background-color: rgb(168, 178, 209);
+}
+@media screen and (max-width: 700px) {
+    .icon-bar{
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .icon-bar a {
+        display: inline;
+    }
+    .icon-bar::after{
+        display: none;
+    }
+}

@@ -15,7 +15,7 @@ export default function Hero() {
                     <h5 style={{ color: "#a8b2d1" }}>I'm a Software Engineering Associate at Renew Power, India. Primarily interested in Web Development.</h5>
                     <h5 style={{ color: "#a8b2d1" }}>I enjoy writing tech blogs and also helping every tech beginner I come across!</h5>
                     <br></br>
-                    <a href="mailto: rahulagarwal070193@gmail.com" class="btn btn-lg btn-outline-info" role="button" >Get In Touch</a>
+                    <a href={user.email} class="btn btn-lg btn-outline-info" role="button" >Get In Touch</a>
                 </div>
             </div >
 

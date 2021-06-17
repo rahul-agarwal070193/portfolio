@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
 import Hero from './components/Hero';
-import Side from './components/Side';
+import Contact from './components/Contact';
+import FeatureProject from './components/FeatureProject';
+import Footer from './components/Footer';
+
 // background = {
 //   "backgroundColor": "black"
 // };
@@ -15,11 +17,12 @@ ReactDOM.render(
   <React.StrictMode>
     <div style={{ backgroundColor: "#0a192f" }}>
       <Navbar />
-      <Side />
       <div class="container" >
         <Hero />
         <About />
-        <App />
+        <FeatureProject />
+        <Contact />
+        <Footer />
       </div>
     </div>
 

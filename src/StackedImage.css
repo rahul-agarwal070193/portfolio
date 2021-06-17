@@ -1,0 +1,28 @@
+.img-area{
+    position: relative;
+    height: 50vh;
+    box-shadow: 62px 42px 56px 0px #000;
+    
+}
+.img-box{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img-area img:nth-child(1) {
+    top: 20px;
+    opacity: 10%;
+    /* z-index: 30; */
+    transform: rotate(-5deg);
+}
+.img-area img:nth-child(2){
+    top:10px;
+    opacity: 20%;
+    /* z-index: 40; */
+    transform: rotate(5deg);
+}
+.img-area img:nth-child(3) {
+    top: 0px;
+    /* z-index: 50; */
+} 

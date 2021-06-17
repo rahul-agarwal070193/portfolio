@@ -1,0 +1,25 @@
+.primary {
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.primary img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.primary:hover img {
+    -webkit-filter: none;
+    filter: none;
+        border: 2px solid rgb(100, 255, 218);
+        top: 10px;
+        left: 10px;
+        z-index: -1;
+}
