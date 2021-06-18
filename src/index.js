@@ -8,6 +8,8 @@ import Hero from './components/Hero';
 import Contact from './components/Contact';
 import FeatureProject from './components/FeatureProject';
 import Footer from './components/Footer';
+import OtherProject from './components/OtherProject';
+
 
 // background = {
 //   "backgroundColor": "black"
@@ -21,6 +23,7 @@ ReactDOM.render(
         <Hero />
         <About />
         <FeatureProject />
+        <OtherProject />
         <Contact />
         <Footer />
       </div>

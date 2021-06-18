@@ -18,23 +18,6 @@ export default function Project() {
 
                 </div>
             </div>
-
-            //     <div class="row" style={{ alignItems: "center" }}>
-
-
-            //         <div class="col-md-6" style={{ zIndex: '100', marginTop: "23px" }}>
-            //             <Card title={item.name} description={item.description} github={item.githublink}
-            //                 tech={item.tag} external={item.external} />
-
-            //         </div>
-            //         <br></br>
-            //         <div class="col-md-6">
-            //             <StackedImage img1={process.env.PUBLIC_URL + item.img1}
-            //                 img2={process.env.PUBLIC_URL + item.img2}
-            //                 img3={process.env.PUBLIC_URL + item.img3} />
-            //         </div>
-            //     </div>
-            // 
         )
     })
     return (

@@ -12,18 +12,19 @@
    "facebook":"https://www.facebook.com/rahulagarwal070193/",
    "instagram":"https://www.instagram.com/rahulagarwal070193/",
    "email":"mailto:rahulagarwal070193@gmail.com",
+   "skills":["Python", "Cpp", "HTML", "CSS", "Django", "Lravel", "Javascript", "React.js"],
    "navLinks":[
       {
          "name":"About",
-         "url":"/#about"
+         "url":"#about"
       },
       {
          "name":"Projects",
-         "url":"/#projects"
+         "url":"#projects"
       },
       {
          "name":"Contact",
-         "url":"/#contact"
+         "url":"#contact"
       }
    ],
    "Feature Project":[
@@ -50,6 +51,33 @@
          "external":"https://finatic-llc.herokuapp.com/",
          "tag":["react","HTML","CSS","Django"],
          "image":["/images/me.jpg","/images/finatic.png","/images/hangout_room.png"]
+      }
+   ],
+   "Projrct":[
+      {
+         "name":"Foodblog",
+         "description":"A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.",
+         "github":"https://github.com/rahul-agarwal070193",
+         "external":"https://rah070-foodblog.herokuapp.com/all_post",
+         "tag":["react","HTML","CSS","Django"],
+         "visible": true
+      },
+            {
+         "name":"Hangout Room",
+         "description":"",
+         "github":"",
+         "external":"",
+         "tag":["react","HTML","CSS","Django"],
+         "visible": true
+
+      },      
+      {
+         "name":"Finatic",
+         "description":"Finatic is the goto platform for portfolio and investment analytics. Our quantitative tools help you make informed data-driven investment decisions.Our first product Portfolio Analyzer gives a complete analytical report on your Portfolio's backtested Performance, Risk Structure, Monte Carlo forecasts and much more",
+         "github":"",
+         "external":"https://finatic-llc.herokuapp.com/",
+         "tag":["react","HTML","CSS","Django"],
+         "visible": true
       }
    ]
 }

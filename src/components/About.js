@@ -1,11 +1,10 @@
-import React from 'react'
-import user from "./detail.json"
-import "../About.css"
+import React from 'react';
+import user from "./detail.json";
 import Heading from '../HelpingComponents/Heading';
 import UnorderedList from '../HelpingComponents/UnorderedList';
 import Image from '../HelpingComponents/Image';
 export default function About() {
-    var arr = ["Python", "Cpp", "HTML", "CSS", "Django", "Lravel", "Javascript", "React.js"];
+    var arr = user.skills;
     return (
         <section style={{ minHeight: "100vh" }} id="about">
             <div class="container">
