@@ -21,7 +21,7 @@ export default function About() {
                             Hello! My name is {user.short_name} and I enjoy creating things that live on the internet.
                         </h5>
                         <h5 style={{ color: "#a8b2d1" }}>
-                            My interest in web development started back in 2020 when I decided to try make my own version of a <a href="https://rah070-foodblog.herokuapp.com/all_post" class="link-info ">Foodblog</a> site — taught me a lot about HTML,CSS,Dango!
+                            My interest in web development started back in 2020 when I decided to try make my own version of a <a href="https://rah070-foodblog.herokuapp.com/all_post" style={{ textDecoration: "none", color: "#64ffda" }}>Foodblog</a> site — taught me a lot about HTML,CSS,Dango!
                         </h5>
                         <h5 style={{ color: "#a8b2d1" }}>
                             Here are a few technologies I've been working with recently:

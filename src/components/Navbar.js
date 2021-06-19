@@ -1,7 +1,7 @@
 import React from 'react'
 import user from "./detail.json"
 import IconLogo from '../icon/Logo';
-
+import resume from "../Resume_Rahul_Agarwal.pdf"
 function Content() {
     var navlink = user.navLinks;
     return (
@@ -35,7 +35,7 @@ export default function Navbar() {
                         <ul class="navbar-nav m-2 d-flex flex-fill justify-content-end ">
                             <Content />
                             <li class="nav-item ">
-                                <a href="/resume.pdf" class="btn btn-outline-info" role="button" >Resume</a>
+                                <a href={resume} class="btn btn-outline" role="button" target="blanck">Resume</a>
                             </li>
                         </ul>
                     </div>

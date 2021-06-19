@@ -30,54 +30,46 @@
    "Feature Project":[
       {
          "name":"Foodblog",
-         "description":"A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.",
-         "githublink":"",
+         "description":"",
+         "githublink":"https://github.com/rahul-agarwal070193/foodblog-1",
          "external":"https://rah070-foodblog.herokuapp.com/all_post",
-         "tag":["react","HTML","CSS","Django"],
-         "image":["/images/me.jpg","/images/finatic.png","/images/hangout_room.png"]
+         "tag":["Python","HTML","Bootstrap","Django","Postgresql"],
+         "image":["/images/Foodblog(3).png","/images/Foodblog(2).png","/images/Foodblog(1).png"]
       },
             {
          "name":"Hangout Room",
-         "description":"",
-         "githublink":"",
+         "description":"A Website where user can watch youtube videos with friends and chat together.The most prominent feature include:Creating rooms,Joining rooms,Search videos on youtube,Making a playlist,Chatting with room members,Streaming video",
+         "githublink":"https://github.com/rahul-agarwal070193/HangoutRoom",
          "external":"",
-         "tag":["react","HTML","CSS","Django"],
-         "image":["/images/me.jpg","/images/finatic.png","/images/hangout_room.png"]
+         "tag":["Django","Python","Bootstrap","HTML","Javascript","React.js","youtube API"],
+         "image":["/images/hangout_room(5).png","/images/hangout_room(4).png","/images/hangout_room(3).png","/images/hangout_room(2).png","/images/hangout_room(1).png"]
 
       },      
       {
          "name":"Finatic",
          "description":"Finatic is the goto platform for portfolio and investment analytics. Our quantitative tools help you make informed data-driven investment decisions.Our first product Portfolio Analyzer gives a complete analytical report on your Portfolio's backtested Performance, Risk Structure, Monte Carlo forecasts and much more",
          "external":"https://finatic-llc.herokuapp.com/",
-         "tag":["react","HTML","CSS","Django"],
-         "image":["/images/me.jpg","/images/finatic.png","/images/hangout_room.png"]
+         "tag":["Django","Python","Bootstrap","HTML","Yahoo Finance API","Chart.js","Postgresql"],
+         "image":["/images/me.jpg","/images/finatic.png","/images/hangout_room(1).png"]
       }
    ],
    "Projrct":[
       {
-         "name":"Foodblog",
-         "description":"A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.",
-         "github":"https://github.com/rahul-agarwal070193",
-         "external":"https://rah070-foodblog.herokuapp.com/all_post",
-         "tag":["react","HTML","CSS","Django"],
+         "name":"Crazy Car",
+         "description":"Tried to create my own version of Road Rash Game where user can choose between six differnet cars and try to make high score with each level getting harder than the previous",
+         "github":"https://github.com/rahul-agarwal070193/Crazycar",
+         "external":"",
+         "tag":["Python","Pygame module","Game"],
          "visible": true
       },
-            {
-         "name":"Hangout Room",
-         "description":"",
-         "github":"",
+      {
+         "name":"Dungeon Master",
+         "description":"Escape from the maze game where player have to defeat spider,find keys,find path through trees and maze",
+         "github":"https://github.com/rahul-agarwal070193/Dungeon-Master",
          "external":"",
-         "tag":["react","HTML","CSS","Django"],
+         "tag":["Python","Pygame module","Game"],
          "visible": true
 
-      },      
-      {
-         "name":"Finatic",
-         "description":"Finatic is the goto platform for portfolio and investment analytics. Our quantitative tools help you make informed data-driven investment decisions.Our first product Portfolio Analyzer gives a complete analytical report on your Portfolio's backtested Performance, Risk Structure, Monte Carlo forecasts and much more",
-         "github":"",
-         "external":"https://finatic-llc.herokuapp.com/",
-         "tag":["react","HTML","CSS","Django"],
-         "visible": true
       }
    ]
 }

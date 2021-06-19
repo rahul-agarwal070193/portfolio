@@ -1,35 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import About from './components/About';
-import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
-import Hero from './components/Hero';
-import Contact from './components/Contact';
-import FeatureProject from './components/FeatureProject';
-import Footer from './components/Footer';
-import OtherProject from './components/OtherProject';
+import App from "./App"
 
-
-// background = {
-//   "backgroundColor": "black"
-// };
 
 ReactDOM.render(
   <React.StrictMode>
-    <div style={{ backgroundColor: "#0a192f" }}>
-      <Navbar />
-      <div class="container" >
-        <Hero />
-        <About />
-        <FeatureProject />
-        <OtherProject />
-        <Contact />
-        <Footer />
-      </div>
-    </div>
-
-
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

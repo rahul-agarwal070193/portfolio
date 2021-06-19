@@ -1,13 +1,13 @@
 .icon-bar {
     position: fixed;
-    top: 45%;
+    top: 56%;
     left:1%;
 }
 
 /* Style the icon bar links */
 .icon-bar a {
     display: block;
-    padding: 16px;
+    padding: 7px;
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
@@ -15,7 +15,7 @@
 
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
-    background-color: #000;
+    background-color: #303C55;
 }
 
 .icon-bar::after{

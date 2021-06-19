@@ -18,8 +18,8 @@ img{
 .primary:hover img {
     -webkit-filter: none;
     filter: none;
-        border: 2px solid rgb(100, 255, 218);
-        top: 10px;
-        left: 10px;
-        z-index: -1;
+    border: 2px solid rgb(100, 255, 218);
+    top: 10px;
+    left: 10px;
+    z-index: -1;
 }
