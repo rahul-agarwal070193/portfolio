@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from "../HelpingComponents/Heading"
-import "../OtherProject.css"
+import "../CSS/OtherProject.css"
 import user from "./detail.json"
 export default function OtherProject() {
     var arr = user.Projrct;

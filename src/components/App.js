@@ -1,13 +1,13 @@
-import './App.css';
-import About from './components/About';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Contact from './components/Contact';
-import FeatureProject from './components/FeatureProject';
-import Footer from './components/Footer';
-import OtherProject from './components/OtherProject';
+import '../CSS/App.css';
+import About from './About';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import Contact from './Contact';
+import FeatureProject from './FeatureProject';
+import Footer from './Footer';
+import OtherProject from './OtherProject';
 import React, { useState, useEffect } from 'react'
-import Loading from './HelpingComponents/Loading';
+import Loading from '../HelpingComponents/Loading';
 export default function App() {
   const [loading, setloading] = useState(true);
   useEffect(() => {

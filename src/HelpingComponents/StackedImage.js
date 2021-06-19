@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../StackedImage.css'
+import '../CSS/StackedImage.css'
 export default function Test(props) {
     const [arr, setarr] = useState(props.img);
     const [bo, setbo] = useState(false);

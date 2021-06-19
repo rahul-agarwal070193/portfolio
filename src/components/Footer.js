@@ -1,6 +1,6 @@
 import React from 'react'
 import Side from '../HelpingComponents/Side'
-import '../Footer.css'
+import '../CSS/Footer.css'
 import user from "./detail.json"
 export default function Footer() {
     return (

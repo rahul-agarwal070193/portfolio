@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Side.css"
+import "../CSS/Side.css"
 import user from '../components/detail.json'
 export default function Side() {
     const size = 20;

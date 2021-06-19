@@ -1,6 +1,6 @@
 import React from 'react'
 import user from "./detail.json"
-import '../Hero.css'
+import '../CSS/Hero.css'
 export default function Hero() {
     return (
         <section style={{ height: "100vh" }} >

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../UnorderedList.css'
+import '../CSS/UnorderedList.css'
 export default function UnorderedList(props) {
     var arr = props.arr;
     // console.log(arr);
